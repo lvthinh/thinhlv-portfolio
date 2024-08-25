@@ -179,7 +179,7 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Resume</button>
+            <button class="navbar-link" data-nav-link>CV</button>
           </li>
 
           <li class="navbar-item">
@@ -187,12 +187,12 @@
           </li>
 
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Activities</button>
+            <button class="navbar-link" data-nav-link>Awards</button>
           </li>
 
-          <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Activities</button>
+          </li>
 
         </ul>
 
@@ -470,11 +470,23 @@
         - #RESUME
       -->
 
-        <article class="resume" data-page="resume">
+        <article class="cv" data-page="cv">
 
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
+          <!-- <header>
+            <h2 class="h2 article-title">CV</h2>
+          </header> -->
+
+          <header style="display: flex">
+            <h2 class="h2 article-title" style=" margin-right: 10px;">CV</h2>
+            <div>
+              <a href="https://drive.google.com/uc?export=download&id=1OwDtjgDs9VPh-SCbOZR0YG64QIWyPKYP" download style="text-decoration: none; color: inherit;">
+                <div class="icon-box" style="display: flex; align-items: center;">
+                  <ion-icon name="download" style="font-size: 24px; cursor: pointer;"></ion-icon>
+                </div>
+              </a>
+            </div>
           </header>
+          
 
           <section class="timeline">
 
@@ -492,16 +504,14 @@
 
                 <h4 class="h4 timeline-item-title">North Carolina State University</h4>
                 <h5 class="h5">Ph.D. Student in Computer Science</h5>
-                <span>Fall 2024 — Present</span>
+                <span>Aug 2024 — May 2028 (Expected)</span>
               </li>
 
               <li class="timeline-item">
                 <h4 class="h4 timeline-item-title">University of Engineering and Technology (VNU)</h4>
-                <h5 class="h5"> Bachelor degree in Computer Science</h5>
-                <span>Fall 2017 — Fall 2021</span>
+                <h5 class="h5"> BS. in Computer Science. GPA 3.82/4.0 (Rank 1)</h5>
+                <span>Aug 2017 — June 2021</span>
               </li>
-
-
             </ol>
 
           </section>
@@ -513,7 +523,7 @@
                 <ion-icon name="book-outline"></ion-icon>
               </div>
 
-              <h3 class="h3">Experience</h3>
+              <h3 class="h3">Professional Experience</h3>
             </div>
 
             <ol class="timeline-list">
@@ -522,9 +532,12 @@
 
                 <h4 class="h4 timeline-item-title">North Carolina State University</h4>
                 <h5 class="h5"> Graduate Research Assistant</h5>
-                <span>2024 — Present</span>
+                <span>Aug 2024 — Present</span>
                 <p class="timeline-text">
-                  At NCSU, I am working on the field of quantum sensing, quantum networking.
+                  Research focus: quantum sensing and communication with an emphasis on the utilization of Rydberg atoms
+                </p>
+                <p class="timeline-text">
+                  Quantum error correction for third generation quantum repeater
                 </p>
               </li>
 
@@ -532,61 +545,49 @@
 
                 <h4 class="h4 timeline-item-title">Kennesaw State University</h4>
                 <h5 class="h5"> Graduate Research Assistant</h5>
-                <span>2022 — 2024</span>
+                <span>Aug 2022 — May 2024</span>
 
                 <p class="timeline-text">
-                  Conducted research on topics of quantum computing, quantum annealing, quantum networking, and quantum machine learning.
+                  Developed models for solving optimization problems on quantum annealer and quantum gate-based computer
                 </p>
                 <p class="timeline-text">
-                  Teching Assistant - CS3503 Computer Organization and Architecture (Fall 2022)
+                  Prepared lecture notes, exam questions, grade lab reports, and exam papers for CS3503 (Computer Organization and Architecture)
                 </p>
-
               </li>
 
               <li class="timeline-item">
 
                 <h4 class="h4 timeline-item-title">University of Engineering and Technology (VNU)</h4>
                 <h5 class="h5"> Teaching Assistant</h5>
-                <span>2021 — 2022</span>
+                <span>Jul 2021 — Jul 2022</span>
 
                 <p class="timeline-text">
-                  Developed algorithms to detect anomalous devices from the raw data collected in Smart Home
+                  Developed algorithm to identify anomalous devices in smart home
                 </p>
                 <p class="timeline-text">
-                  Teching Assistant - INT2209 Computer Network (Fall 2021)
-                </p>
-                <p class="timeline-text">
-                  Lecturer - NodeJS Fundamentals, Codegym Vietnam
+                  Delivered lectures on computer communication fundamentals and network systems
                 </p>
 
               </li>
-
               <li class="timeline-item">
-
-                <h4 class="h4 timeline-item-title">Revolution Technology Laboratory</h4>
-
-                <span>2018 — 2019</span>
-
+                <h4 class="h4 timeline-item-title">Hitachi Vantara Vietnam</h4>
+                <span>Dec 2020 — Jul 2021</span>
                 <p class="timeline-text">
-                  Built multi-tenant Proxy connection service integrated into OpenStack systems.
+                  Performed data analysis for credit data from Vietnam Prosperity Joint-Stock Commercial Bank (VPBank)
                 </p>
-
+                <p class="timeline-text">
+                  Implemented web application tailored for the management and visualization of agriculture sensor data
+                </p>
               </li>
-
             </ol>
 
           </section>
-
           <section class="skill">
-
-            <h3 class="h3 skills-title">My skills</h3>
-
+            <h3 class="h3 skills-title">Technical Skills</h3>
             <ul class="skills-list content-card">
-
               <li class="skills-item">
-
                 <div class="title-wrapper">
-                  <h5 class="h5">Major languages: Vietnamese, English, Python, Java</h5>
+                  <h5 class="h5">Quantum Information: Quantum Annealing, Quantum Sening, Quantum Communication, QAOA, QUBO, VQE</h5>
                 </div>
 
                 <div class="skill-progress-bg">
@@ -598,17 +599,14 @@
               <li class="skills-item">
 
                 <div class="title-wrapper">
-                  <h5 class="h5">Libraries: IBM Qiskit, QuTiP, cuQuantum</h5>
+                  <h5 class="h5">Programming: IBM Qiskit, QuTiP, Python, JavaScript</h5>
                 </div>
 
                 <div class="skill-progress-bg">
                   <div class="skill-progress-fill" style="width: 100%;"></div>
                 </div>
-
               </li>
-
             </ul>
-
           </section>
 
         </article>
@@ -744,12 +742,12 @@
 
 
 
-<!-- Activities -->
+        <!-- Activities -->
 
-        <article class="blog" data-page="activities">
+        <article class="blog" data-page="awards">
 
           <header>
-            <h2 class="h2 article-title">Activities</h2>
+            <h2 class="h2 article-title">Awards</h2>
           </header>
 
           <section class="blog-posts">
@@ -760,8 +758,22 @@
                 <li class="blog-post-item-award">KSU Outstanding Ph.D Student - Research Award (2023)</li>
                 <li class="blog-post-item-award">IEEE 2023 International Conference on Communications NSF Student Travel Grant - $1250</li>
                 <li class="blog-post-item-award">KSU-College of Computing and Engineering Student Travel Grant - $1500 (2023)</li>
+                <li class="blog-post-item-award">Undergraduate Dean`s list scholarships (6/8 semesters, $4000)</li>
                 <li class="blog-post-item-award">Valedictorian - Top 1 Highest GPA among Computer Science Major Students, University of Engineering and Technology (2021)</li>
               </ul>
+
+          </section>
+
+        </article>
+
+        <!-- Others -->
+        <article class="blog" data-page="activities">
+
+          <header>
+            <h2 class="h2 article-title">Activities</h2>
+          </header>
+
+          <section class="blog-posts">
 
             <h2 class="h2" style="padding-bottom: 1em; padding-top: 1em;">Professional Services</h2>
             <ul class="blog-posts-list">
@@ -852,6 +864,56 @@
       }, 3000);
     });
   </script>
+  
+  <script type="text/javascript">
+  var map = AmCharts.makeChart("mapdiv",{
+  type: "map",
+  theme: "light",
+  panEventsEnabled : true,
+  backgroundColor : "#535364",
+  backgroundAlpha : 1,
+  zoomControl: {
+  zoomControlEnabled : true
+  },
+  dataProvider : {
+  map : "usaHigh",
+  getAreasFromMap : true,
+  areas :
+  [
+    {
+      "id": "US-FL",
+      "showAsSelected": true
+    },
+    {
+      "id": "US-GA",
+      "showAsSelected": true
+    },
+    {
+      "id": "US-NC",
+      "showAsSelected": true
+    },
+    {
+      "id": "US-TX",
+      "showAsSelected": true
+    },
+    {
+      "id": "US-WA",
+      "showAsSelected": true
+    }
+  ]
+  },
+  areasSettings : {
+  autoZoom : true,
+  color : "#B4B4B7",
+  colorSolid : "#84ADE9",
+  selectedColor : "#84ADE9",
+  outlineColor : "#666666",
+  rollOverColor : "#9EC2F7",
+  rollOverOutlineColor : "#000000"
+  }
+  });
+  </script>
+  
 </body>
 
 </html>
